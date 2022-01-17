@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+/*HEADER*/
+.header {
+    height: 100vh;
+    background-image: url(/assets/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-body-container {
+    padding: 3rem;
+}
+
+.header-title {
+    color: white;
+    margin-bottom: 4rem;
+    font-size: 3rem;
+}
+#ciudad {
+    padding: 1rem;
+    font-size: 1.5rem;
+    border-style: none;
+}
+
+#pais {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+
+.btn {
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+
+.resultado {
+    height: 45rem;
+    width: 40rem;
+}
+
+.resultado-text-default {
+    font-size: 2rem;
+    color: rgb(159, 152, 152);
+}
+
+.resultado-title-container {
+    text-align: center;
+    padding: 1rem;
+    background-color: rgb(57, 57, 255);
+}
+.resultado-title {
+    color: white;
+}
+
+.divMensaje {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.actual {
+    font-size: 2rem;
+    font-weight: 400;
+}
+.min {
+    font-size: 2rem;
+    font-weight: 400;
+}
+.max {
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.name {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.description {
+    font-size: 2.5rem;
+    font-weight: 450;
+}
+
+
+/*MQ*/
+@media (max-width: 768px) {
+    .header {
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        height: 216vh;
+        width: 100vh;
+    }
+
+    .header-title {
+        text-align: center;
+        font-size: 5rem;
+    }
+    .resultado {
+        text-align: center;
+        height: 45rem;
+        width: 40rem;
+    }
+
+    #ciudad {
+        font-size: 2rem;
+    }
+
+    #pais {
+        font-size: 2rem;
+    }
+
+    .btn {
+        font-size: 2rem;
+    }
+
+    .divMensaje {
+        font-size: 1rem;
+    }
+
+    .actual {
+        font-size: 3rem;
+    }
+
+    .min {
+        font-size: 3rem;
+    }
+
+    .max {
+        font-size: 3rem;
+    }
+
+    .description {
+        font-size: 4rem;
+    }
+
+    .name {
+        font-size: 4.5rem;
+    }
+}
